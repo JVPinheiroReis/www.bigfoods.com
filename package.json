@@ -7,9 +7,9 @@
         "dev": "vite",
         "build": "tsc -b && vite build",
         "preview": "vite preview",
-        "lint": "biome lint --write .",
-        "format": "biome format --write .",
-        "fix": "biome check --write .",
+        "lint": "biome lint --unsafe --write .",
+        "format": "biome format --unsafe --write .",
+        "fix": "biome check --unsafe --write .",
         "test": "biome check && tsc --noEmit"
     },
     "dependencies": {
