@@ -1,21 +1,11 @@
+import Navbar from '@/components/Navbar'
 import './index.css'
 
 export default function Header() {
     return (
         <div className="header">
             <div className="icon"></div>
-            <ul className="navbar">
-                <li>
-                    <a className="filled-button" href="/about">
-                        Link 1
-                    </a>
-                </li>
-                <li>
-                    <a className="filled-button" href="/contacts">
-                        Link 2
-                    </a>
-                </li>
-            </ul>
+            <Navbar />
         </div>
     )
 }
