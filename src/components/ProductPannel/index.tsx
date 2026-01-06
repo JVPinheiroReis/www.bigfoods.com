@@ -14,28 +14,28 @@ export default function ProductPannel() {
                 <ImageFrame
                     src={burgerWithCheeseAndBacon}
                     alt="some test icon"
-                    desc="A SVG image just for test the description"
+                    desc="A burger with cheese and bacon."
                 />
             </li>
             <li>
                 <ImageFrame
                     src={burgerWithCheese}
                     alt="some test icon"
-                    desc="A SVG image just for test the description"
+                    desc="A classic burger with meat and cheese."
                 />
             </li>
             <li>
                 <ImageFrame
                     src={frenchFriesAndBurger}
                     alt="some test icon"
-                    desc="A SVG image just for test the description"
+                    desc="French fries portion"
                 />
             </li>
             <li>
                 <ImageFrame
                     src={milkshake}
                     alt="some test icon"
-                    desc="A SVG image just for test the description"
+                    desc="A delicious milkshake"
                 />
             </li>
         </ul>
