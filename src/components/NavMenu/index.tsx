@@ -1,6 +1,6 @@
 import './index.css'
 
-export default function Navbar() {
+export default function NavMenu() {
     return (
         <nav>
             <ul className="nav-menu">

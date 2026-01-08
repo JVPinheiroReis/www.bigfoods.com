@@ -1,6 +1,6 @@
 import './index.css'
 
-export default function ImageFrame({
+export default function ImageCard({
     src,
     alt,
     desc,

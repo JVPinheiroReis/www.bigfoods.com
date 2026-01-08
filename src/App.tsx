@@ -1,13 +1,12 @@
-import Header from '@/components/Header'
-import ProductPannel from '@/components/ProductPannel'
-
 import './App.css'
+import PageHeader from './components/PageHeader'
+import ProductList from './components/ProductList'
 import WhoWeAre from './components/WhoWeAre'
 
 export default function App() {
     return (
         <div className="app-container">
-            <Header />
+            <PageHeader />
             <main>
                 <h1>Big Foods</h1>
                 <section>
@@ -16,7 +15,7 @@ export default function App() {
                 </section>
                 <section>
                     <h2>Veja nossos produtos</h2>
-                    <ProductPannel />
+                    <ProductList />
                 </section>
             </main>
         </div>

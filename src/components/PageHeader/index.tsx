@@ -1,17 +1,17 @@
 import Contacts from '@/components/Contacts'
 import Icon from '@/components/Icon'
-import Navbar from '@/components/Navbar'
+import NavMenu from '../NavMenu'
 
 import './index.css'
 
-export default function Header() {
+export default function PageHeader() {
     return (
         <header className="page-header">
             <div className="page-header__branding">
                 <Icon />
                 <Contacts />
             </div>
-            <Navbar />
+            <NavMenu />
         </header>
     )
 }
