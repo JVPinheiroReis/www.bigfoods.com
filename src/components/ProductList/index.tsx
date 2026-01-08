@@ -9,28 +9,28 @@ import ImageCard from '../ImageCard'
 export default function ProductList() {
     return (
         <ul className="product-list">
-            <li>
+            <li className="product-list__li">
                 <ImageCard
                     src={burgerWithCheeseAndBacon}
                     alt="some test icon"
                     desc="Hambúrguer com queijo e bacon"
                 />
             </li>
-            <li>
+            <li className="product-list__li">
                 <ImageCard
                     src={burgerWithCheese}
                     alt="some test icon"
                     desc="Hambúrguer com queijo"
                 />
             </li>
-            <li>
+            <li className="product-list__li">
                 <ImageCard
                     src={frenchFriesAndBurger}
                     alt="some test icon"
                     desc="Porção de batatas fritas"
                 />
             </li>
-            <li>
+            <li className="product-list__li">
                 <ImageCard
                     src={milkshake}
                     alt="some test icon"

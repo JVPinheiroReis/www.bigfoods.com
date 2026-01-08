@@ -11,7 +11,7 @@
     margin: 0;
 }
 
-.contact-list li {
+.contact-list__li {
     justify-content: center;
     align-content: center;
 

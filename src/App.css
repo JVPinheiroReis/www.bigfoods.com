@@ -1,9 +1,9 @@
-.app-container h1 {
+.app-container__h1 {
     font-size: 2em;
     font-weight: 500;
 }
 
-.app-container h2 {
+.app-container__h2 {
     font-size: 1.5em;
     font-weight: 500;
 }

@@ -8,13 +8,12 @@ export default function App() {
         <div className="app-container">
             <PageHeader />
             <main>
-                <h1>Big Foods</h1>
+                <h1 className="app-container__h1">Big Foods</h1>
                 <section>
-                    <h2>Saiba quem somos</h2>
                     <WhoWeAre />
                 </section>
                 <section>
-                    <h2>Veja nossos produtos</h2>
+                    <h2 className="app-container__h2">Veja nossos produtos</h2>
                     <ProductList />
                 </section>
             </main>
