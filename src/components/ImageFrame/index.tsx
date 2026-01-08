@@ -10,11 +10,11 @@ export default function ImageFrame({
     desc: string
 }) {
     return (
-        <div className="frame-wrapper">
+        <figure className="frame-wrapper">
             <img className="frame-image" src={src} alt={alt} />
-            <div className="frame-card">
+            <figcaption className="frame-card">
                 <p className="frame-description">{desc}</p>
-            </div>
-        </div>
+            </figcaption>
+        </figure>
     )
 }
