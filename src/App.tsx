@@ -1,6 +1,6 @@
 import PageHeader from '@/components/PageHeader'
+import Presentation from '@/components/Presentation'
 import ProductList from '@/components/ProductList'
-import WhoWeAre from '@/components/WhoWeAre'
 
 import './App.css'
 import DeliverWays from './components/DeliverWays'
@@ -12,7 +12,7 @@ export default function App() {
             <main>
                 <h1 className="app-container__h1">Big Foods</h1>
                 <section>
-                    <WhoWeAre />
+                    <Presentation />
                 </section>
                 <section>
                     <h2 className="app-container__h2">Veja nossos produtos</h2>
