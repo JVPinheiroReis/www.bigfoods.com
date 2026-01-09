@@ -3,8 +3,9 @@ import burgerWithCheeseAndBacon from '@/assets/burger-with-cheese-and-bacon.jpg'
 import frenchFriesAndBurger from '@/assets/french-fries-and-burger.jpg'
 import milkshake from '@/assets/milkshake.jpg'
 
+import ImageCard from '@/components/ImageCard'
+
 import './index.css'
-import ImageCard from '../ImageCard'
 
 export default function ProductList() {
     return (

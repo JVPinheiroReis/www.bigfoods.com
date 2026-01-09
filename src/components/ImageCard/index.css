@@ -7,7 +7,17 @@
     aspect-ratio: 10 / 16;
     width: 100%;
 
+    border-radius: 1em;
+
     margin: 0;
+}
+
+.image-card:hover {
+    transition: all 0.5s;
+    transform: scale(1.1);
+
+    box-shadow: 0.5em 0.5em 2em black;
+    z-index: 1;
 }
 
 .image-card__img {
@@ -16,6 +26,8 @@
 
     width: 100%;
     height: 100%;
+
+    border-radius: inherit;
 }
 
 .image-card__caption {
@@ -25,9 +37,10 @@
     transition: all 0.5s;
 
     width: 100%;
-    height: 50%;
+    min-height: 25%;
 
-    background-color: rgb(0, 0, 0, 0.75);
+    background-color: rgb(0 0 0 / 0.5);
+    border-radius: inherit;
     opacity: 0;
 
     color: white;
