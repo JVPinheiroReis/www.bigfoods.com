@@ -16,7 +16,6 @@
     transition: all 0.5s;
     transform: scale(1.1);
 
-    box-shadow: 0.1em 0.1em 0.5em black;
     z-index: 1;
 }
 

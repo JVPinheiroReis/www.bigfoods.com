@@ -6,7 +6,20 @@
     margin: 3em;
 }
 
-.deliver-ways__image-card img {
+.deliver-ways__img {
     width: 100%;
     object-fit: contain;
+}
+
+.deliver-ways__figure {
+    display: flex;
+    flex-direction: column;
+
+    width: 100%;
+}
+
+.deliver-ways__figcaption {
+    text-align: center;
+    font-style: italic;
+    font-size: 0.8em;
 }

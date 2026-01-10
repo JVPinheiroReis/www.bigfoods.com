@@ -1,25 +1,31 @@
 import deliverying from '@/assets/deliverying.svg'
 import deliveryingShopSvg from '@/assets/deliverying-shop.svg'
 
-import ImageCard from '../ImageCard'
-
 import './index.css'
 
 export default function DeliverWays() {
     return (
         <div className="deliver-ways">
-            <ImageCard
-                className="deliver-ways__image-card"
-                src={deliveryingShopSvg}
-                desc="Você pode visitar nossa loja."
-                alt="deliverying-shop-svg"
-            />
-            <ImageCard
-                className="deliver-ways__image-card"
-                src={deliverying}
-                desc="Fazemos entregas na sua casa."
-                alt="deliverying-svg"
-            />
+            <figure className="deliver-ways__figure">
+                <img
+                    className="deliver-ways__img"
+                    src={deliveryingShopSvg}
+                    alt="deliverying-shop-svg"
+                />
+                <figcaption className="deliver-ways__figcaption">
+                    Você pode pegar na loja.
+                </figcaption>
+            </figure>
+            <figure className="deliver-ways__figure">
+                <img
+                    className="deliver-ways__img"
+                    src={deliverying}
+                    alt="deliverying-svg"
+                />
+                <figcaption className="deliver-ways__figcaption">
+                    Nós levamos até você.
+                </figcaption>
+            </figure>
         </div>
     )
 }
